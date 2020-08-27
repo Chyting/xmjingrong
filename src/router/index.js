@@ -16,8 +16,8 @@ const routes = [
     component: Home
   },
   {
-    path: '/wealth',
-    name: 'wealth',
+    path: '/wealth-page1',
+    name: 'wealth-wealth-page1',
     component: Wealth
   },
   {

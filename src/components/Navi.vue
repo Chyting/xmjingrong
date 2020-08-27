@@ -2,7 +2,7 @@
   <nav class="clear">
     <div class="m-headernav clear">
       <h1 class="xm-logo">
-        <a><img src=".~assets/xm_images/logo_pc-xiaomi.png"/></a>
+        <a><img src="~assets/xm_images/logo_pc-xiaomi.png" /></a>
       </h1>
       <div class="tabs clear">
         <ul>
@@ -16,16 +16,16 @@
             </router-link>
             <div class="tabs__menu">
               <ul class="tabs__menu--item">
-                <li><a href="../xm_HTML/issue.html">定期活期</a></li>
-                <li><a href="../xm_HTML/invest.html">基金投资</a></li>
+                <li><a href="#">定期活期</a></li>
+                <li><a href="#">基金投资</a></li>
               </ul>
             </div>
           </li>
-          <li><a href="../xm_HTML/loan.html">贷款</a></li>
-          <li><a href="../xm_HTML/insurance.html">保险</a></li>
-          <li><a href="../xm_HTML/asset.html">资产</a></li>
-          <li><a href="../xm_HTML/community.html">社区</a></li>
-          <li><a href="../xm_HTML/client.html">客户端</a></li>
+          <li><a href="#">贷款</a></li>
+          <li><a href="#">保险</a></li>
+          <li><a href="#">资产</a></li>
+          <li><a href="#">社区</a></li>
+          <li><a href="#">客户端</a></li>
         </ul>
       </div>
     </div>
@@ -39,7 +39,7 @@ export default {
     handleJump(name) {
       this.$router.push({
         name
-      })
+      });
     }
   }
 };

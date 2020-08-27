@@ -19,7 +19,6 @@
 import Header from './components/Header.vue';
 import Navi from './components/Navi.vue';
 import Footer from './components/Footer.vue';
-
 export default {
   name: 'App',
   data() {
@@ -34,8 +33,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'src/styles/reset.css';
-@import 'src/styles/common.css';
+@import 'src/styles/reset.scss';
+@import 'src/styles/common.scss';
 @import 'src/views/Home/index';
 .slider .el-button--primary {
   padding: 18px 30px;

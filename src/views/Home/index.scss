@@ -55,7 +55,7 @@ article {
 }
 .slider {
   height: 640px;
-  background-image: url(assets/xm_images/index_banner-744e8a4eb7.jpg);
+  background-image: url(~assets/xm_images/index_banner-744e8a4eb7.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -109,13 +109,13 @@ article {
 }
 .msgboard {
   .lc .dever {
-    background-image: url(assets/xm_images/index_lc-4d441bbd19.png);
+    background-image: url(~assets/xm_images/index_lc-4d441bbd19.png);
   }
   .dk .dever {
-    background-image: url(assets/xm_images/index_dk-30bb01dd27.png);
+    background-image: url(~assets/xm_images/index_dk-30bb01dd27.png);
   }
   .bx .dever {
-    background-image: url(assets/xm_images/index_bx-77769fa5cb.png);
+    background-image: url(~assets/xm_images/index_bx-77769fa5cb.png);
   }
   .link-list .dever {
     margin: 0 auto;
@@ -204,7 +204,7 @@ article {
     top: -2px;
     width: 16px;
     height: 16px;
-    // background-image: url(../xm_images/icn_right-63e3c49bc1.png);
+    background-image: url(~assets/xm_images/icn_right-63e3c49bc1.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
