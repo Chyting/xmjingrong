@@ -3,7 +3,7 @@ import VueRouter from 'vue-router';
 import Vue from 'vue';
 
 import Wealth from '../views/Wealth';
-import Home from '@/views/Home'
+import Home from '@/views/Home';
 
 // 1.通过Vue.use(插件), 安装插件
 Vue.use(VueRouter);
@@ -16,8 +16,8 @@ const routes = [
     component: Home
   },
   {
-    path: '/wealth-page1',
-    name: 'wealth-wealth-page1',
+    path: '/wealth',
+    name: 'wealth',
     component: Wealth
   },
   {
