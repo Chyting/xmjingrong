@@ -142,7 +142,11 @@ export default {
         { id: 4, h3: '智慧存一月', price_d: 4, price_x: '30%', lilv: '每期返息收益率', text_d: '振兴银行', text_x: '按期派息' },
         { id: 5, h3: '心动存', price_d: 3, price_x: '90%', lilv: '最新支取收益率', text_d: '按期派息', text_x: '按季派息' }
       ],
-      tblists: []
+      tblists: [
+        { id: 1, title_b: '紧跟趋势', title_x: '刚需造就吸金板块', tags_b: '内需', tags_x: '大消费', content: '近期国内消费复苏超出预期，3月底中央政治局强调要有效扩大内需，4月社...' },
+        { id: 1, title_b: '紧跟趋势', title_x: '刚需造就吸金板块', tags_b: '内需', tags_x: '大消费', content: '近期国内消费复苏超出预期，3月底中央政治局强调要有效扩大内需，4月社...' },
+        { id: 1, title_b: '紧跟趋势', title_x: '刚需造就吸金板块', tags_b: '内需', tags_x: '大消费', content: '近期国内消费复苏超出预期，3月底中央政治局强调要有效扩大内需，4月社...' }
+      ]
     };
   },
   components: {
