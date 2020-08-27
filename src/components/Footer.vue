@@ -52,7 +52,7 @@ footer {
 }
 .helpmsg .help-l i {
   position: absolute;
-  background-image: url(../assets/xm_images/footer_icon-cf1f052c34.png);
+  background-image: url('~assets/xm_images/footer_icon-cf1f052c34.png');
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;

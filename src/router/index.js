@@ -2,8 +2,9 @@
 import VueRouter from 'vue-router';
 import Vue from 'vue';
 
-import Wealth from '../components/Wealth';
-import App from '../App';
+import Wealth from '../views/Wealth';
+import Home from '@/views/Home'
+
 // 1.通过Vue.use(插件), 安装插件
 Vue.use(VueRouter);
 
@@ -11,23 +12,22 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '',
-    // redirect重定向
-    redirect: '/app'
+    name: 'home',
+    component: Home
   },
   {
-    path: '/wealth',
+    path: '/wealth-page1',
+    name: 'wealth-wealth-page1',
     component: Wealth
   },
   {
-    path: '/app',
-    component: App
+    path: '/wealth-page2',
+    name: 'wealth-wealth-page2',
+    component: Wealth
   }
 ];
 const router = new VueRouter({
-  // 配置路由和组件之间的应用关系
-  routes,
-  mode: 'history',
-  linkActiveClass: 'active'
+  routes
 });
 
 // 3.将router对象传入到Vue实例

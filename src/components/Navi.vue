@@ -2,14 +2,18 @@
   <nav class="clear">
     <div class="m-headernav clear">
       <h1 class="xm-logo">
-        <a><img src="../assets/xm_images/logo_pc-xiaomi.png"/></a>
+        <a><img src=".~assets/xm_images/logo_pc-xiaomi.png"/></a>
       </h1>
       <div class="tabs clear">
         <ul>
-          <li><a href="../App.vue">首页</a></li>
+          <li>
+            <router-link :to="{name: 'home'}">
+              首页
+            </router-link>
           <li class="menu-wrap">
-            <a href="./components/Wealth.vue">财富</a>
-
+            <router-link :to="{name: 'wealth'}">
+              财富
+            </router-link>
             <div class="tabs__menu">
               <ul class="tabs__menu--item">
                 <li><a href="../xm_HTML/issue.html">定期活期</a></li>
@@ -31,7 +35,13 @@
 <script>
 export default {
   name: 'Navi',
-  props: {}
+  methods: {
+    handleJump(name) {
+      this.$router.push({
+        name
+      })
+    }
+  }
 };
 </script>
 
