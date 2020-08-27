@@ -1,0 +1,47 @@
+.client-btmbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+  .bar1 {
+    text-align: left;
+  }
+  .bar2 {
+    text-align: center;
+  }
+  .bar3 {
+    text-align: right;
+    border: none;
+  }
+}
+.client-btmbar > * {
+  height: 88px;
+  line-height: 88px;
+  border-right: 1px solid #e8e8e8;
+  width: 33.33% !important;
+}
+.client_bgc {
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: #f7f7fb;
+}
+.bar1 .avatar {
+  background-image: url(https://fundres.mipay.com/res/pc/images/index_footer_1-74942bfa2c.png);
+}
+
+.bar2 .avatar {
+  background-image: url(https://fundres.mipay.com/res/pc/images/index_footer_2-e06991e650.png);
+}
+.bar3 .avatar {
+  background-image: url(https://fundres.mipay.com/res/pc/images/index_footer_3-29c808bec4.png);
+}
+.client-btmbar li .avatar {
+  vertical-align: middle;
+  display: inline-block;
+  width: 295px;
+  height: 60px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
