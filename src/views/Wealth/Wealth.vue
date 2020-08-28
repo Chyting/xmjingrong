@@ -21,54 +21,7 @@
           <div class="slide"></div>
           <ul class="wealth-list clear content-list">
             <em class="themeList invest_msg">
-              <li class="theme">
-                <a href="#">
-                  <div class="bgc_1 invest_bgc">
-                    <div class="cover"></div>
-                    <div class="wrap">
-                      <p class="title">紧跟趋势<br />刚需造就吸金板块</p>
-                      <p class="tags">
-                        <span>#内需 &nbsp;#大消费</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="invest_info">
-                    <p>近期国内消费复苏超出预期，3月底中央政治局强调要有效扩大内需，4月社...</p>
-                  </div>
-                </a>
-              </li>
-              <li class="theme">
-                <a href="#">
-                  <div class="invest_bgc bgc_2">
-                    <div class="cover"></div>
-                    <div class="wrap">
-                      <p class="title">5G引领<br />科技强国</p>
-                      <p class="tags">
-                        <span>#5G &nbsp;#概念</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="invest_info">
-                    <p>2020年将是5G手机大年。5G手机生产进度略超预期，此外5G终端换...</p>
-                  </div>
-                </a>
-              </li>
-              <li class="theme">
-                <a href="#">
-                  <div class="invest_bgc bgc_3">
-                    <div class="cover"></div>
-                    <div class="wrap">
-                      <p class="title">全球抗疫<br />70亿人健康大事</p>
-                      <p class="tags">
-                        <span>#生物 &nbsp;#疫苗</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="invest_info">
-                    <p>2019年底流感强势来袭，紧接着新型冠状病毒感染情况亦牵动人心。生物...</p>
-                  </div>
-                </a>
-              </li>
+              <Tbar v-for="tblist in tblists" v-bind:tblist='tblist' v-bind:key='tblist.id'></Tbar>
             </em>
             <em class="goldList">
               <li class="theme">
@@ -82,7 +35,7 @@
               </li>
             </em>
             <em class="jjList">
-              <li>
+              <!-- <li>
                 <a href="#">
                   <h3>大成中证红利指数</h3>
                   <div class="price"><span>15</span>.31%</div>
@@ -111,7 +64,9 @@
                     <p class="txt">QDII<i class="deliver"></i>互联网红利</p>
                   </div>
                 </a>
-              </li>
+              </li> -->
+              <Jlist v-for="jjlist in jjlists" v-bind:key='jjlist.id' v-bind:jjlist='jjlist'></Jlist>
+
             </em>
             <li class="more">
               <div class="item-dw"></div>
@@ -130,7 +85,9 @@
 </template>
 <script>
 import List from './List/List';
+import Jlist from './Jlist/Jlist';
 import Tubi from './Tubi/Tubi';
+import Tbar from './Tbar/Tbar';
 export default {
   name: 'Wealth',
   data() {
@@ -144,14 +101,21 @@ export default {
       ],
       tblists: [
         { id: 1, title_b: '紧跟趋势', title_x: '刚需造就吸金板块', tags_b: '内需', tags_x: '大消费', content: '近期国内消费复苏超出预期，3月底中央政治局强调要有效扩大内需，4月社...' },
-        { id: 1, title_b: '紧跟趋势', title_x: '刚需造就吸金板块', tags_b: '内需', tags_x: '大消费', content: '近期国内消费复苏超出预期，3月底中央政治局强调要有效扩大内需，4月社...' },
-        { id: 1, title_b: '紧跟趋势', title_x: '刚需造就吸金板块', tags_b: '内需', tags_x: '大消费', content: '近期国内消费复苏超出预期，3月底中央政治局强调要有效扩大内需，4月社...' }
+        { id: 2, title_b: '5G引领', title_x: '科技强国', tags_b: '#5G', tags_x: '#概念', content: '2020年将是5G手机大年。5G手机生产进度略超预期，此外5G终端换...' },
+        { id: 3, title_b: '全球抗疫', title_x: '70亿人健康大事', tags_b: '#生物', tags_x: '#疫苗', content: '2019年底流感强势来袭，紧接着新型冠状病毒感染情况亦牵动人心。生物...' }
+      ],
+      jjlists: [
+        { id: 1, h3: '大成中证红利指数', price_d: '60', price_x: '.31%', lilv: '近一年收益率', text_d: '紧密跟踪标的指数', text_x: '' },
+        { id: 1, h3: '易方达中小盘混合', price_d: '15', price_x: '.33%', lilv: '近一年收益率', text_d: '价值投资', text_x: '长期增长' },
+        { id: 1, h3: '大成中证红利指数', price_d: '15', price_x: '.31%', lilv: '近一年收益率', text_d: 'QDII', text_x: '互联网红利' }
       ]
     };
   },
   components: {
     List,
-    Tubi
+    Tubi,
+    Tbar,
+    Jlist
   }
 };
 </script>
