@@ -1,17 +1,17 @@
 <template>
   <li class="theme">
     <a href="#">
-      <div class="invest_bgc" v-bind:class="tb_bgc[i]">
+      <div class="invest_bgc" v-bind:class="this.tb_bgc[tblist.id-1]">
         <div class="cover"></div>
         <div class="wrap">
-          <p class="title">紧跟趋势<br />刚需造就吸金板块</p>
+          <p class="title">{{tblist.title_b}}<br />{{tblist.title_x}}</p>
           <p class="tags">
-            <span>#内需 &nbsp;#大消费</span>
+            <span>{{tblist.tags_b}}&nbsp;{{tblist.tags_x}}</span>
           </p>
         </div>
       </div>
       <div class="invest_info">
-        <p>近期国内消费复苏超出预期，3月底中央政治局强调要有效扩大内需，4月社...</p>
+        <p>{{tblist.content}}</p>
       </div>
     </a>
   </li>
@@ -28,4 +28,5 @@ export default {
 };
 </script>
 <style lang="scss">
+@import './index.scss';
 </style>
