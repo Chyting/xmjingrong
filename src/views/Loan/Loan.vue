@@ -6,12 +6,14 @@
           <p>小米贷款</p>
           <p class="txt">震撼低息 日息2万起</p>
           <div class="btn">下载小米贷款APP</div>
+
         </div>
         <div class="loan-content__right">
           <div class="login">
-            <img src="assets/xm_images/loan-xmd.png" alt="" />
+            <img src="~assets/xm_images/loan-xmd.png" alt="" />
             <p>震撼低息，一分钟放款</p>
             <div class="loginbtn"><a href="#">点击登录</a></div>
+            <!-- <el-button plain class="loginbtn">点击登录</el-button> -->
           </div>
         </div>
       </div>
@@ -56,7 +58,7 @@
           <div class="d3">3.人脸识别</div>
           <div class="d4">4.开通额度</div>
         </div>
-        <div class="lic-download u-text-center">下载小米贷款APP&nbsp;&gt;</div>
+        <div class="lic-download u-text-center"><a>下载小米贷款APP&nbsp;&gt;</a></div>
       </div>
       <div class="loan-process__right"></div>
     </div>

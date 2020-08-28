@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Vue from 'vue';
 
 import Wealth from '../views/Wealth/Wealth';
+import Insurance from '../views/Insurance/Insurance';
 import Loan from '../views/Loan/Loan';
 import Home from '@/views/Home';
 
@@ -25,6 +26,11 @@ const routes = [
     path: '/Loan',
     name: 'loan',
     component: Loan
+  },
+  {
+    path: '/Insurance',
+    name: 'insurance',
+    component: Insurance
   }
 ];
 const router = new VueRouter({

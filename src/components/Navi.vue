@@ -21,11 +21,26 @@
               </ul>
             </div>
           </li>
-          <li><a href="#">贷款</a></li>
-          <li><a href="#">保险</a></li>
-          <li><a href="#">资产</a></li>
-          <li><a href="#">社区</a></li>
-          <li><a href="#">客户端</a></li>
+
+          <li>
+            <router-link :to="{name:'loan'}">
+              贷款
+            </router-link>
+          </li>
+          <li>
+            <router-link :to="{name:'insurance'}">
+              保险
+            </router-link>
+          </li>
+          <li>
+            <router-link :to="{name:'asset'}">资产</router-link>
+          </li>
+          <li>
+            <router-link :tp="{name:'community'}">社区</router-link>
+          </li>
+          <li>
+            <router-link :to="{name:'client'}">客户端</router-link>
+          </li>
         </ul>
       </div>
     </div>
