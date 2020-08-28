@@ -1,0 +1,74 @@
+.wealth-list li {
+  margin: 17px 0px 0px 17px;
+  position: relative;
+  float: left;
+  width: 226px;
+  height: 295px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+a {
+  text-decoration: none;
+}
+.wealth-list li h3 {
+  margin: 0;
+  margin-top: 40px;
+  height: 48px;
+  color: #313131;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 500;
+  padding: 0 14px;
+}
+.wealth-list .price {
+  padding-top: 20px;
+  color: #ed6039;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 500;
+  & span:first-child {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+.wealth-list li p {
+  color: #868686;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 2px;
+}
+.wealth-list li .btm {
+  p {
+    color: #868686;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -24%;
+    font-size: 13px;
+  }
+  .txt {
+    text-align: center;
+    color: #868686;
+    font-size: 13px;
+    line-height: 18px;
+    bottom: 40px;
+    left: 36%;
+    margin-left: -17%;
+  }
+  .deliver {
+    display: inline-block;
+    margin: 0px 14px;
+    content: '';
+    height: 8px;
+    width: 1px;
+    background-color: #b1b1b1;
+  }
+}
+
+.wealth-list li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+  transform: translate3d(0, -2px, 0);
+}
