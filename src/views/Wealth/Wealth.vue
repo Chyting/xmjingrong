@@ -35,36 +35,6 @@
               </li>
             </em>
             <em class="jjList">
-              <!-- <li>
-                <a href="#">
-                  <h3>大成中证红利指数</h3>
-                  <div class="price"><span>15</span>.31%</div>
-                  <p>近一年收益率</p>
-                  <div class="btm">
-                    <p>紧密跟踪标的指数</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <h3>易方达中小盘混合</h3>
-                  <div class="price"><span>60</span>.33%</div>
-                  <p>近一年收益率</p>
-                  <div class="btm">
-                    <p class="txt">价值投资<i class="deliver"></i>长期增长</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <h3>交银中证海外中国互联网指数(QDII)</h3>
-                  <div class="price"><span>79</span>.20%</div>
-                  <p>近一年收益率</p>
-                  <div class="btm">
-                    <p class="txt">QDII<i class="deliver"></i>互联网红利</p>
-                  </div>
-                </a>
-              </li> -->
               <Jlist v-for="jjlist in jjlists" v-bind:key='jjlist.id' v-bind:jjlist='jjlist'></Jlist>
 
             </em>
@@ -105,9 +75,9 @@ export default {
         { id: 3, title_b: '全球抗疫', title_x: '70亿人健康大事', tags_b: '#生物', tags_x: '#疫苗', content: '2019年底流感强势来袭，紧接着新型冠状病毒感染情况亦牵动人心。生物...' }
       ],
       jjlists: [
-        { id: 1, h3: '大成中证红利指数', price_d: '60', price_x: '.31%', lilv: '近一年收益率', text_d: '紧密跟踪标的指数', text_x: '' },
-        { id: 1, h3: '易方达中小盘混合', price_d: '15', price_x: '.33%', lilv: '近一年收益率', text_d: '价值投资', text_x: '长期增长' },
-        { id: 1, h3: '大成中证红利指数', price_d: '15', price_x: '.31%', lilv: '近一年收益率', text_d: 'QDII', text_x: '互联网红利' }
+        { id: 1, h3: '大成中证红利指数', price_d: '60', price_x: '31%', lilv: '近一年收益率', text_d: '紧密跟踪标的指数', text_x: '' },
+        { id: 1, h3: '易方达中小盘混合', price_d: '15', price_x: '33%', lilv: '近一年收益率', text_d: '价值投资', text_x: '长期增长' },
+        { id: 1, h3: '大成中证红利指数', price_d: '15', price_x: '31%', lilv: '近一年收益率', text_d: 'QDII', text_x: '互联网红利' }
       ]
     };
   },

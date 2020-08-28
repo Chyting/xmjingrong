@@ -1,9 +1,9 @@
 // 配置路由相关的信息
 import VueRouter from 'vue-router';
 import Vue from 'vue';
-
 import Wealth from '../views/Wealth/Wealth';
 import Insurance from '../views/Insurance/Insurance';
+import Client from '../views/Client/Client';
 import Loan from '../views/Loan/Loan';
 import Home from '@/views/Home';
 
@@ -31,6 +31,11 @@ const routes = [
     path: '/Insurance',
     name: 'insurance',
     component: Insurance
+  },
+  {
+    path: '/Client',
+    name: 'client',
+    component: Client
   }
 ];
 const router = new VueRouter({

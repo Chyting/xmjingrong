@@ -33,10 +33,11 @@
             </router-link>
           </li>
           <li>
-            <router-link :to="{name:'asset'}">资产</router-link>
+            <a href="../views/Community/community.html">资产</a>
+
           </li>
           <li>
-            <router-link :tp="{name:'community'}">社区</router-link>
+            <a href="">社区</a>
           </li>
           <li>
             <router-link :to="{name:'client'}">客户端</router-link>
