@@ -1,0 +1,288 @@
+.loan {
+  background-color: #f7f7fb;
+}
+.loan-slide {
+  width: 100%;
+  height: 640px;
+  background-image: url('~assets/xm_images/loan-bgc.png');
+  background-position-x: center;
+}
+.loan-content {
+  width: 1200px;
+  height: 640px;
+  margin: 0 auto;
+  padding: 120px 0 116px;
+}
+.loan-content__left {
+  padding: 57px 0 140px 0;
+  color: #ffffff;
+  width: 710px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  font-weight: 300;
+  p {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 10px;
+  }
+  .txt {
+    font-size: 69px;
+    line-height: 69px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    width: 260px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+  }
+}
+
+.loan-content__right {
+  border-radius: 6px;
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.1);
+  width: 480px;
+  height: 404px;
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.loan-content__right .login {
+  padding: 60px 40px 40px 46px;
+  text-align: center;
+  img {
+    margin: 0 auto 40px;
+    width: 90px;
+    height: 126px;
+  }
+  p {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 54px;
+    color: #333333;
+  }
+  .loginbtn {
+    font-size: 24px;
+    color: #ffffff;
+    width: 394px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fa3f32;
+    background-image: linear-gradient(90deg, #ff3c00 7%, #f7731b 100%);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+
+.loan-items {
+  width: 1200px;
+  margin-top: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.savemoney {
+  height: 240px;
+  width: 294px;
+  background: url('https://ts.market.mi-img.com/thumbnail/png/q80/Finance/0c0b9040e5d3a489b14d10b06668a9a0cc03cb11d') no-repeat center;
+  background-size: 297px 240px;
+}
+.fast {
+  height: 240px;
+  width: 294px;
+  background: url('https://ts.market.mi-img.com/thumbnail/png/q80/Finance/063db40e15e70192abdfb9e3492b46a2b48410d5e') no-repeat center;
+  background-size: 297px 240px;
+}
+.friendly {
+  height: 240px;
+  width: 294px;
+  background: url('https://ts.market.mi-img.com/thumbnail/png/q80/Finance/0e0b9040e5d3a489b14d10b06628a9aacc032b11d') no-repeat center;
+  background-size: 297px 240px;
+}
+.safety {
+  height: 240px;
+  width: 294px;
+  background: url('https://ts.market.mi-img.com/thumbnail/png/q80/Finance/0d0b94c0e3d0ab89304d17b065b8a1a1ca5411690') no-repeat center;
+  background-size: 297px 240px;
+}
+label {
+  font-size: 48px;
+  line-height: 48px;
+  display: block;
+  margin: 50px 0 20px 50px;
+}
+.text {
+  font-size: 24px;
+  margin-left: 50px;
+  p {
+    line-height: 32px;
+  }
+}
+
+.loan-process {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #fff;
+}
+.loan-process__left {
+  width: 564px;
+  height: 262px;
+  padding: 91px 95px 0 110px;
+  display: inline-block;
+  vertical-align: middle;
+  & > p {
+    font-size: 36px;
+    line-height: 36px;
+    color: #333333;
+    margin-bottom: 40px;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+
+.process-img {
+  width: 560px;
+  height: 80px;
+  background: url('https://ts.market.mi-img.com/thumbnail/png/q80/Finance/0c805a4913970455c2d2845b8315e91f6e7a9ed4d') no-repeat center;
+  background-size: 560px 80px;
+}
+.process-desc {
+  font-size: 18px;
+  color: #333333;
+  margin: 20px 0 52px;
+  line-height: 18px;
+  height: 18px;
+  position: relative;
+  .d1 {
+    display: inline-block;
+    margin-left: -30px;
+  }
+  .d2 {
+    display: inline-block;
+    margin-left: 30px;
+  }
+  .d3 {
+    display: inline-block;
+    margin-left: 60px;
+  }
+  .d4 {
+    display: inline-block;
+    margin-left: 62px;
+  }
+}
+
+.lic-download {
+  color: #fd3911;
+  font-size: 16px;
+  cursor: pointer;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+}
+.loan-process__right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 254px;
+  height: 389px;
+  margin-top: 51px;
+  background: url('https://ts.market.mi-img.com/thumbnail/png/q80/Finance/0ef414da023b3b18215949a126c9178e2dc400ed0') no-repeat center;
+  background-size: 254px 389px;
+}
+.loan-ques {
+  width: 1200px;
+  height: 581px;
+  background-color: #ffffff;
+  color: #333333;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.loan-ques--header {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 49px 0 21px 46px;
+}
+.loan-ques--line {
+  height: 1px;
+  width: 1100px;
+  background-color: #979797;
+  opacity: 0.2;
+  margin: 0 auto;
+}
+.loan-ques--content {
+  padding: 33px 50px 23px 50px;
+  .question {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .answer {
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    margin-bottom: 33px;
+  }
+}
+
+footer {
+  background-color: #fff;
+}
+.loan-official {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #ffffff;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.loan-official-content {
+  padding: 78px 0px 78px 180px;
+}
+.img-weibo {
+  width: 144px;
+  height: 144px;
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: middle;
+  background: url('https://ts.market.mi-img.com/thumbnail/png/q80/Finance/0ef414da023b3b1820594da129c91b8e23c400ed0') no-repeat center;
+  background-size: 144px;
+}
+.info {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 宋体;
+}
+.info span {
+  font-size: 19px;
+}
+.info p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #666666;
+}
+.weibo-logo {
+  width: 24px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url('https://ts.market.mi-img.com/thumbnail/png/q80/Finance/083dbe4e18e5049211dfbbe34dcb45a8b07a32206') no-repeat center;
+  background-size: 24px 18px;
+}
+.img-weixin {
+  width: 144px;
+  height: 144px;
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: middle;
+  background: url('https://ts.market.mi-img.com/thumbnail/png/q80/Finance/06a9c24aaa3004bb615d491a5401ba9e5059f1782') no-repeat center;
+  margin-left: 185px;
+  background-size: 144px;
+}

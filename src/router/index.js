@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Vue from 'vue';
 
 import Wealth from '../views/Wealth/Wealth';
+import Loan from '../views/Loan/Loan';
 import Home from '@/views/Home';
 
 // 1.通过Vue.use(插件), 安装插件
@@ -19,6 +20,11 @@ const routes = [
     path: '/wealth',
     name: 'wealth',
     component: Wealth
+  },
+  {
+    path: '/Loan',
+    name: 'loan',
+    component: Loan
   }
 ];
 const router = new VueRouter({
